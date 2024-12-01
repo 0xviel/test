@@ -1,1 +1,10 @@
-Print["Hello World"]
+(* program untuk menghitung luas dan keliling lingkaran *)
+
+radius = Input["masukkan jari-jari lingkaran:"];
+
+area = Pi radius^2;
+circumference = 2 Pi radius;
+
+Print["jari-jari: ", radius];
+Print["luas lingkaran: ", area];
+Print["keliling lingkaran: ", circumference];
